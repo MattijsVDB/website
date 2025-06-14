@@ -1,21 +1,32 @@
 *
 {
-    background-color: #424242;
+    background-color: #3c3c3c;
+    color: white;
 }
 
 header
 {
     background-color: darkorange;
     border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 5px;
+    padding: 15px;
     box-shadow: 5px 5px black;
-    button
+    a
     {
-        background-color: darkorange;
+        background-color: #3c3c3c;
         border: 2px solid black;
         border-radius: 15px;
         margin: 5px;
+        padding: 5px;
+        text-decoration: none;
+        color: darkorange;
+        box-shadow: 5px 5px black;
+    }
+    a:hover
+    {
+        background-color: darkorange;
+        color: #3c3c3c;
     }
 }
 
@@ -29,6 +40,9 @@ footer
 {
     background-color: darkorange;
     border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
