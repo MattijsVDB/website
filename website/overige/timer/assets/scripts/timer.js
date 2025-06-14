@@ -5,7 +5,7 @@ let highscore = null;
 
 const handleLoad = () =>
 {
-    document.addEventListener('click', handleClick);
+    //document.addEventListener('click', handleClick);
     document.addEventListener('keydown', handleKeyDown);
 }
 
@@ -49,7 +49,7 @@ const handleKeyDown = () =>
 {
     document.removeEventListener('keydown', handleKeyDown);
     document.addEventListener('keyup', handleKeyUp);
-    document.removeEventListener('click', handleClick);
+    //document.removeEventListener('click', handleClick);
 
     const currentTime = new Date().getTime(); // Get current time in milliseconds
 
@@ -64,7 +64,7 @@ const handleKeyDown = () =>
         const timeSpan = currentTime - firstClickTime; // Calculate the time difference
         console.log(`Time span between clicks: ${timeSpan} ms`);
         firstClickTime = null; // Reset for the next measurement
-        document.addEventListener('click', handleClick);
+        //document.addEventListener('click', handleClick);
         document.getElementById('timertijd').innerText = `${1/timeSpan*1000} Hz (${timeSpan} ms)`;
         if(highscore === null)
         {
