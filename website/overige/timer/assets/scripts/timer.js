@@ -9,7 +9,7 @@ const handleLoad = () =>
     document.addEventListener('keydown', handleKeyDown);
 }
 
-const handleClick = () =>
+/*const handleClick = () =>
 {
     document.removeEventListener('keydown', handleKeyDown);
     document.removeEventListener('keydown', handleKeyUp);
@@ -43,7 +43,7 @@ const handleClick = () =>
         }
         document.getElementById('highscore').innerText = `record: ${1/highscore*1000} Hz (${highscore} ms)`;
     }
-}
+}*/
 
 const handleKeyDown = () =>
 {
