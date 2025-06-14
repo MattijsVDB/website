@@ -72,6 +72,10 @@ const handleKeyDown = () =>
         }
         else
         {
+            if(timeSpan === highscore)
+            {
+                alert("Niet valsspelen, hé!");
+            }
             if(timeSpan < highscore)
             {
                 highscore = timeSpan;
