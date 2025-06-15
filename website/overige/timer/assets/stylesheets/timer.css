@@ -36,6 +36,23 @@ header
     font-size: xxx-large;
 }
 
+main
+{
+    button
+    {
+        width: 97vw;
+        height: 250px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        border-radius: 15px;
+    }
+
+    button:hover
+    {
+        background-color: darkorange;
+    }
+}
+
 footer
 {
     background-color: darkorange;
