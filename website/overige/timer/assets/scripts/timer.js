@@ -79,7 +79,6 @@ const handleKeyDown = () =>
         firstClickTime = null; // Reset for the next measurement
         knop.disabled = false;
         document.getElementById('timertijd').innerText = `${1/timeSpan*1000} Hz (${timeSpan} ms)`;
-        document.getElementById('average').innerText = `persoonlijk gemiddelde: ${1/(total/amountOfTries)*1000} Hz (${total/amountOfTries}ms)`;
         if(highscore === null)
         {
             highscore = timeSpan;
@@ -100,6 +99,7 @@ const handleKeyDown = () =>
             alert("voortgang verwijderd");
         }
         document.getElementById('highscore').innerText = `persoonlijk record: ${1/highscore*1000} Hz (${highscore} ms)`;
+        document.getElementById('average').innerText = `persoonlijk gemiddelde: ${1/(total/amountOfTries)*1000} Hz (${total/amountOfTries}ms)`;
     }
 }
 
