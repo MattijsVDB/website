@@ -68,3 +68,8 @@ footer
     color: white;
     text-align: center;
 }
+
+#warning
+{
+    color: darkorange;
+}
