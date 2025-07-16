@@ -59,6 +59,9 @@ main
 
 footer
 {
+    position: fixed;
+    bottom: 5px;
+    width: 97%;
     background-color: darkorange;
     border: 2px solid black;
     border-radius: 5px;
