@@ -1,0 +1,72 @@
+body
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h1
+{
+    font-size: 1.8rem;
+}
+
+#board
+{
+    margin-top: 20px;
+}
+
+.row
+{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    margin-left: 30%;
+}
+
+.tile
+{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    text-transform: uppercase;
+}
+
+.correct
+{
+    background-color: #6aaa64;
+    color: white;
+}
+
+.present
+{
+    background-color: #c9b458;
+    color: white;
+}
+
+.absent
+{
+    background-color: #787c7e;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .tile {
+        width: 3.5rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.6rem;
+    }
+
+    input, button {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+}
