@@ -73,3 +73,19 @@ footer
 {
     color: darkorange;
 }
+
+article
+{
+    *
+    {
+        background-color: darkorange;
+        color: #3c3c3c;
+    }
+    width: 250px;
+    background-color: darkorange;
+    color: #3c3c3c;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+}
