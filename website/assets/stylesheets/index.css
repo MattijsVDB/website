@@ -56,3 +56,9 @@ article
     padding: 10px;
     box-shadow: 5px 5px black;
 }
+
+#articles
+{
+    display: flex;
+    flex-wrap: wrap;
+}
