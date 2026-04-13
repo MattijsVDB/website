@@ -1,7 +1,21 @@
 *
 {
-    background-color: #3c3c3c;
     color: white;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #3c3c3c;
+}
+
+main
+{
+    flex: 1;
+    background-color: transparent;
 }
 
 header
@@ -61,4 +75,9 @@ article
 {
     display: flex;
     flex-wrap: wrap;
+}
+
+#knop
+{
+    color: black;
 }
